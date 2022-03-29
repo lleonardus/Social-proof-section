@@ -1,0 +1,14 @@
+@import "general.css";
+@import "header.css";
+@import "comments.css";
+@import "layout.css";
+@import "ratings.css";
+
+:root{
+    --clr-dark: hsl(300, 43%, 22%); 
+    --clr-verified: hsl(333, 80%, 67%);
+    --clr-header-p: hsl(303, 10%, 53%);
+    --clr-rating: hsl(300, 24%, 96%);
+    --translate-comment: 1rem;
+    --width: 100%;
+}

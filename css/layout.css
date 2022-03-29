@@ -1,0 +1,42 @@
+body{
+    display: flex;
+    justify-content: center;
+    font-family: 'Spartan', sans-serif;
+}
+
+.header{
+    grid-area: h;
+}
+ .ratings{
+     grid-area: r;
+}
+.comments{
+    grid-area: c;
+}
+
+
+main{
+    display: grid;
+    width: 93%;
+    row-gap: 4rem;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: 
+    'h r'
+    'c c ';
+
+    background-image: url(../images/bg-pattern-top-desktop.svg);
+    background-repeat: no-repeat;
+    background-position-x: -10rem;
+
+}
+
+@media(max-width:1032px){
+    main{
+        display: flex;
+        flex-direction: column;
+        width: 93%;
+    }
+}
+
+
