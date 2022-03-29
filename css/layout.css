@@ -17,6 +17,7 @@ body{
 
 main{
     display: grid;
+    margin-top: 5rem;
     width: 93%;
     row-gap: 4rem;
     grid-template-rows: repeat(2, 1fr);
@@ -36,6 +37,7 @@ main{
         display: flex;
         flex-direction: column;
         width: 93%;
+        margin-top: 0;
     }
 }
 
