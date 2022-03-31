@@ -18,6 +18,7 @@ body{
 main{
     display: grid;
     width: 93%;
+    max-width: 80rem;
     row-gap: 4rem;
     grid-template-rows: repeat(2, 1fr);
     grid-template-columns: repeat(2, 1fr);
